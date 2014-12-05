@@ -21,5 +21,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "ILabelView": "https://github.com/xeophin/net.xeophin.utils.ILabel.git#~1.0.0"
+  }
 }
