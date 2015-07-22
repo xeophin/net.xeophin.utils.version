@@ -5,6 +5,7 @@
   "authors": [
     "Kaspar Manz <code@xeophin.net>"
   ],
+  "company": "xeophin.net/worlds",
   "description": "Takes the version number from the AssemblyInformation and exposes it.",
   "main": "VersionNumberController.cs",
   "keywords": [
@@ -23,6 +24,7 @@
     "tests"
   ],
   "dependencies": {
-    "ILabelView": "https://github.com/xeophin/net.xeophin.utils.ILabel.git#~1.0.0"
+    "ILabelView": "https://github.com/xeophin/net.xeophin.utils.ILabel.git#~1.0.0",
+    "Json70r1": "https://github.com/JamesNK/Newtonsoft.Json/releases/download/7.0.1/Json70r1.zip"
   }
 }
