@@ -34,6 +34,12 @@ namespace Net.Xeophin.Utils.Version
      
       SemVer versionObject = new SemVer (informalVersion);
 
+      // Set PlayerSettings
+      PlayerSettings.companyName = companyName;
+      PlayerSettings.productName = gameName;
+      PlayerSettings.bundleVersion = versionObject.StableRelease;
+
+      // Save AssemblyVersion
       string fileContents = string.Format (
                               "using System.Reflection;\n\n" +
                               "[assembly:AssemblyVersion (\"{0}\")]\n" +
