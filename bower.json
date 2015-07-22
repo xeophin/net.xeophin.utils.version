@@ -1,6 +1,6 @@
 {
   "name": "VersionNumber",
-  "version": "0.2.0-0.1.0",
+  "version": "0.2.0-0.1.1",
   "homepage": "https://github.com/xeophin/net.xeophin.utils.version",
   "authors": [
     "Kaspar Manz <code@xeophin.net>"
